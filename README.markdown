@@ -8,7 +8,7 @@ This repository contains a keymap for US keyboards that enables the following:
 
 ## X11 installation
 
-Drop the file into `/usr/share/X11/xkb/symbols` (or the equivalent in your distro)
+Drop the file into `/usr/share/X11/xkb/symbols` (or the equivalent in your distro). Select it with `setxkbmap ee_altgr`.
 
 ## Windows installation
 
