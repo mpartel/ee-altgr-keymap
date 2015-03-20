@@ -1,0 +1,25 @@
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+    include "gb(basic)"
+    name[Group1] = "Estonian (UK keyboard with Estonian letters)";
+
+    key <AC01> { [ a, A, adiaeresis, Adiaeresis ] };
+    key <AD07> { [ u, U, udiaeresis, Udiaeresis ] };
+    key <AD09> { [ o, O, odiaeresis, Odiaeresis ] };
+    
+    // The following are copied from ee(us) with small modifications
+
+    // ž, Ž
+    key <AB01>	{ [           z,  Z,          zcaron,     Zcaron     ] };
+    // ¢
+    key <AB03>	{ [           c,  C,          cent,       cent       ] };
+    // š, Š
+    key <AC02>	{ [           s,  S,          scaron,     Scaron     ] };
+    key <AC10>	{ [ semicolon,    colon,      odiaeresis, Odiaeresis ] };
+    key <AC11>	{ [ apostrophe,   at,         adiaeresis, Adiaeresis ] };
+    key <AD11>	{ [ bracketleft,  braceleft,  udiaeresis, Udiaeresis ] };
+    key <AD12>	{ [ bracketright, braceright, otilde,     Otilde     ] };
+
+    include "level3(ralt_switch)"
+    include "eurosign(e)"
+};
