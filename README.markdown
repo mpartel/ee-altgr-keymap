@@ -3,6 +3,7 @@ This repository contains a keymap for US keyboards that enables the following:
     AltGr+A -> ä
     AltGr+O -> ö
     AltGr+U -> ü
+    AltGr+] -> õ
     AltGr+S -> š
     (plus the capitalized versions)
 
